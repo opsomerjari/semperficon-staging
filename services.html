@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Services — Semperficon Philippines</title>
+  <meta name="description" content="Explore Semperficon's full range of construction services: residential building, renovations, project management, steel fabrications, concrete precast, and pond construction." />
+    <link rel="icon" type="image/x-icon" href="assets/logo-small-black.png">
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ═══════════════════════════════════════════════════════
+       NAVIGATION
+  ════════════════════════════════════════════════════════ -->
+  <nav class="nav scrolled" id="nav">
+    <div class="nav__inner">
+      <a href="index.html" class="nav__logo-wrap" aria-label="Semperficon Home">
+        <img src="assets/logo.png" alt="Semperficon Logo" class="nav__logo" />
+      </a>
+      <ul class="nav__links">
+        <li><a href="index.html"    class="nav__link">Home</a></li>
+        <li><a href="about.html"    class="nav__link">About Us</a></li>
+        <li><a href="services.html" class="nav__link active">Services</a></li>
+        <li><a href="contact.html"  class="nav__link">Contact</a></li>
+      </ul>
+      <a href="contact.html" class="nav__cta">Get a Quote</a>
+      <button class="nav__hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <div class="nav__mobile">
+    <a href="index.html"    class="nav__link">Home</a>
+    <a href="about.html"    class="nav__link">About Us</a>
+    <a href="services.html" class="nav__link active">Services</a>
+    <a href="contact.html"  class="nav__link">Contact</a>
+    <a href="contact.html"  class="nav__cta">Get a Quote</a>
+  </div>
+
+  <!-- ═══════════════════════════════════════════════════════
+       PAGE HERO
+  ════════════════════════════════════════════════════════ -->
+  <section class="page-hero">
+    <div class="page-hero__bg" style="background-image: url('assets/services.webp?w=1400&q=80');"></div>
+    <div class="page-hero__accent"></div>
+    <div class="container page-hero__content">
+      <nav class="breadcrumb" aria-label="Breadcrumb">
+        <a href="index.html">Home</a>
+        <span class="breadcrumb__sep">›</span>
+        <span>Services</span>
+      </nav>
+      <h1>Our <span style="color:var(--yellow);">Services</span></h1>
+      <p>From foundations to finishing touches — Semperficon delivers the complete construction spectrum with unmatched expertise and dedication to quality.</p>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════════════
+       SERVICES INTRO BAR
+  ════════════════════════════════════════════════════════ -->
+  <div style="background:var(--yellow); padding:24px 0;">
+    <div class="container">
+      <div style="display:flex; flex-wrap:wrap; gap:16px; justify-content:center; align-items:center;">
+        <a href="#residential" style="font-family:var(--font-head); font-size:0.8rem; letter-spacing:0.12em; text-transform:uppercase; color:var(--black); padding:8px 18px; background:rgba(0,0,0,.1); border-radius:var(--radius); transition:background .25s;" onmouseover="this.style.background='rgba(0,0,0,.2)'" onmouseout="this.style.background='rgba(0,0,0,.1)'">01 — Residential</a>
+        <a href="#renovations" style="font-family:var(--font-head); font-size:0.8rem; letter-spacing:0.12em; text-transform:uppercase; color:var(--black); padding:8px 18px; background:rgba(0,0,0,.1); border-radius:var(--radius); transition:background .25s;" onmouseover="this.style.background='rgba(0,0,0,.2)'" onmouseout="this.style.background='rgba(0,0,0,.1)'">02 — Renovations</a>
+        <a href="#management" style="font-family:var(--font-head); font-size:0.8rem; letter-spacing:0.12em; text-transform:uppercase; color:var(--black); padding:8px 18px; background:rgba(0,0,0,.1); border-radius:var(--radius); transition:background .25s;" onmouseover="this.style.background='rgba(0,0,0,.2)'" onmouseout="this.style.background='rgba(0,0,0,.1)'">03 — Project Mgmt</a>
+        <a href="#steel" style="font-family:var(--font-head); font-size:0.8rem; letter-spacing:0.12em; text-transform:uppercase; color:var(--black); padding:8px 18px; background:rgba(0,0,0,.1); border-radius:var(--radius); transition:background .25s;" onmouseover="this.style.background='rgba(0,0,0,.2)'" onmouseout="this.style.background='rgba(0,0,0,.1)'">04 — Steel Fab.</a>
+        <a href="#precast" style="font-family:var(--font-head); font-size:0.8rem; letter-spacing:0.12em; text-transform:uppercase; color:var(--black); padding:8px 18px; background:rgba(0,0,0,.1); border-radius:var(--radius); transition:background .25s;" onmouseover="this.style.background='rgba(0,0,0,.2)'" onmouseout="this.style.background='rgba(0,0,0,.1)'">05 — Precast</a>
+        <a href="#ponds" style="font-family:var(--font-head); font-size:0.8rem; letter-spacing:0.12em; text-transform:uppercase; color:var(--black); padding:8px 18px; background:rgba(0,0,0,.1); border-radius:var(--radius); transition:background .25s;" onmouseover="this.style.background='rgba(0,0,0,.2)'" onmouseout="this.style.background='rgba(0,0,0,.1)'">06 — Ponds</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- ═══════════════════════════════════════════════════════
+       SERVICE 01 — RESIDENTIAL
+  ════════════════════════════════════════════════════════ -->
+  <section class="section" id="residential">
+    <div class="container">
+      <div class="service-detail">
+        <div class="fade-up">
+          <img
+            src="assets/house.webp?w=700&q=80"
+            alt="Residential construction"
+            class="service-detail__img"
+          />
+        </div>
+        <div class="fade-up fade-up-delay-2">
+          <div class="service-detail__num">01</div>
+          <span class="label">Service</span>
+          <h3>Residential Construction</h3>
+          <div class="divider"></div>
+          <p>
+            Our experienced Semperficon team of builders creates beautiful and functional homes
+            that exceed our clients' expectations. We work hand in hand with you to design and
+            construct a home that is truly, uniquely yours — from architectural planning all the
+            way through to interior finishing and landscaping.
+          </p>
+          <p style="margin-top:14px;">
+            Whether you are building your first home, a vacation property, or a large family
+            residence, we bring the same level of dedication, craftsmanship, and care to every
+            project regardless of scale.
+          </p>
+          <div class="service-detail__tags">
+            <span class="tag">New Build</span>
+            <span class="tag">Custom Design</span>
+            <span class="tag">Interior Finishing</span>
+            <span class="tag">Landscaping</span>
+          </div>
+          <a href="contact.html" class="btn btn--yellow" style="margin-top:32px;">Enquire About This Service</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Separator ── -->
+  <div style="height:4px; background:linear-gradient(to right,var(--yellow),var(--red));"></div>
+
+  <!-- ═══════════════════════════════════════════════════════
+       SERVICE 02 — RENOVATIONS
+  ════════════════════════════════════════════════════════ -->
+  <section class="section bg-off" id="renovations">
+    <div class="container">
+      <div class="service-detail reverse">
+        <div class="fade-up">
+          <img
+            src="assets/renovations.webp?w=700&q=80"
+            alt="Renovation project"
+            class="service-detail__img"
+          />
+        </div>
+        <div class="fade-up fade-up-delay-2">
+          <div class="service-detail__num">02</div>
+          <span class="label">Service</span>
+          <h3>Renovations</h3>
+          <div class="divider"></div>
+          <p>
+            We do renovations that transform your existing space into something you will truly love.
+            From modernising your kitchen or bathroom to adding a new bedroom, expanding your living
+            space, or carrying out a complete structural overhaul — we work with you to bring your
+            vision to life without disrupting your daily life more than necessary.
+          </p>
+          <p style="margin-top:14px;">
+            Our renovation team is skilled at working on occupied sites and we take great care
+            to protect your existing property, maintain a clean work environment, and keep
+            disruption to a minimum throughout the entire project.
+          </p>
+          <div class="service-detail__tags">
+            <span class="tag">Kitchen & Bath</span>
+            <span class="tag">Extensions</span>
+            <span class="tag">Structural Work</span>
+            <span class="tag">Restorations</span>
+          </div>
+          <a href="contact.html" class="btn btn--yellow" style="margin-top:32px;">Enquire About This Service</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div style="height:4px; background:linear-gradient(to right,var(--red),var(--yellow));"></div>
+
+  <!-- ═══════════════════════════════════════════════════════
+       SERVICE 03 — PROJECT MANAGEMENT
+  ════════════════════════════════════════════════════════ -->
+  <section class="section" id="management">
+    <div class="container">
+      <div class="service-detail">
+        <div class="fade-up">
+          <img
+            src="assets/project-management.webp?w=700&q=80"
+            alt="Project management"
+            class="service-detail__img"
+          />
+        </div>
+        <div class="fade-up fade-up-delay-2">
+          <div class="service-detail__num">03</div>
+          <span class="label">Service</span>
+          <h3>Project Management</h3>
+          <div class="divider"></div>
+          <p>
+            Our experienced Semperficon project managers ensure that every project is completed
+            on time and within budget. We handle all aspects of the build — procurement,
+            subcontractor coordination, quality assurance, progress reporting, and risk
+            management — so you don't have to worry about a thing.
+          </p>
+          <p style="margin-top:14px;">
+            Multi-phase projects are our speciality. We create detailed project schedules, track
+            milestones, and proactively address challenges before they become problems. You always
+            have full visibility into your project's progress through clear, regular reporting.
+          </p>
+          <div class="service-detail__tags">
+            <span class="tag">Multi-Phase Projects</span>
+            <span class="tag">Budget Control</span>
+            <span class="tag">Scheduling</span>
+            <span class="tag">Quality Assurance</span>
+          </div>
+          <a href="contact.html" class="btn btn--yellow" style="margin-top:32px;">Enquire About This Service</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div style="height:4px; background:linear-gradient(to right,var(--yellow),var(--red));"></div>
+
+  <!-- ═══════════════════════════════════════════════════════
+       SERVICE 04 — STEEL FABRICATIONS
+  ════════════════════════════════════════════════════════ -->
+  <section class="section bg-off" id="steel">
+    <div class="container">
+      <div class="service-detail reverse">
+        <div class="fade-up">
+          <img
+            src="assets/steel-fabrications.webp?w=700&q=80"
+            alt="Steel fabrication"
+            class="service-detail__img"
+          />
+        </div>
+        <div class="fade-up fade-up-delay-2">
+          <div class="service-detail__num">04</div>
+          <span class="label">Service</span>
+          <h3>Steel Fabrications</h3>
+          <div class="divider"></div>
+          <p>
+            Semperficon steel fabrication involves taking raw steel materials and shaping them
+            to their desired form for a wide variety of structural and architectural applications.
+            Our fabrication facility is equipped with modern cutting, bending, and welding equipment
+            operated by highly skilled metalworkers.
+          </p>
+          <p style="margin-top:14px;">
+            We produce structural steel frames, staircases, railings, gates, trusses, and custom
+            architectural metalwork to precise specifications. All fabricated elements undergo
+            rigorous quality inspection before leaving our facility.
+          </p>
+          <div class="service-detail__tags">
+            <span class="tag">Structural Steel</span>
+            <span class="tag">CNC Cutting</span>
+            <span class="tag">Welding</span>
+            <span class="tag">Custom Metalwork</span>
+          </div>
+          <a href="contact.html" class="btn btn--yellow" style="margin-top:32px;">Enquire About This Service</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div style="height:4px; background:linear-gradient(to right,var(--red),var(--yellow));"></div>
+
+  <!-- ═══════════════════════════════════════════════════════
+       SERVICE 05 — CONCRETE PRECAST
+  ════════════════════════════════════════════════════════ -->
+  <section class="section" id="precast">
+    <div class="container">
+      <div class="service-detail">
+        <div class="fade-up">
+          <img
+            src="assets/concrete-precast.webp?w=700&q=80"
+            alt="Concrete precast"
+            class="service-detail__img"
+          />
+        </div>
+        <div class="fade-up fade-up-delay-2">
+          <div class="service-detail__num">05</div>
+          <span class="label">Service</span>
+          <h3>Concrete Precast</h3>
+          <div class="divider"></div>
+          <p>
+            Semperficon precast concrete elements are poured into reusable moulds or forms and
+            cured in a controlled factory environment before being transported to site and lifted
+            into position. This controlled manufacturing process results in higher quality, greater
+            consistency, and faster on-site installation compared to traditional cast-in-place methods.
+          </p>
+          <p style="margin-top:14px;">
+            Precast concrete can also be poured on site and then lifted, offering flexibility for
+            projects with access constraints. Our precast solutions are used for floors, walls, roofs,
+            beams, columns, and a variety of custom architectural elements across all building types.
+          </p>
+          <div class="service-detail__tags">
+            <span class="tag">Floors & Walls</span>
+            <span class="tag">Beams & Columns</span>
+            <span class="tag">Roofing Elements</span>
+            <span class="tag">Custom Moulds</span>
+          </div>
+          <a href="contact.html" class="btn btn--yellow" style="margin-top:32px;">Enquire About This Service</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div style="height:4px; background:linear-gradient(to right,var(--yellow),var(--red));"></div>
+
+  <!-- ═══════════════════════════════════════════════════════
+       SERVICE 06 — SWIM & FISH PONDS
+  ════════════════════════════════════════════════════════ -->
+  <section class="section bg-off" id="ponds">
+    <div class="container">
+      <div class="service-detail reverse">
+        <div class="fade-up">
+          <img
+            src="assets/swim-fish-ponds.webp?w=700&q=80"
+            alt="Swimming pond"
+            class="service-detail__img"
+          />
+        </div>
+        <div class="fade-up fade-up-delay-2">
+          <div class="service-detail__num">06</div>
+          <span class="label">Service</span>
+          <h3>Swim &amp; Fish Ponds</h3>
+          <div class="divider"></div>
+          <p>
+            We offer comprehensive design and construction of swimming ponds and fish ponds that
+            blend seamlessly with their natural surroundings. Combining decades of international
+            technical expertise with a deep respect for nature, Semperficon creates water features
+            that are both beautiful and fully sustainable.
+          </p>
+          <p style="margin-top:14px;">
+            Our pond specialists design bespoke water management systems that minimise chemical
+            use, support aquatic ecosystems, and ensure long-term water quality. Whether for
+            leisure swimming or aquaculture, every pond we build is constructed to stand the test
+            of time in the Philippine climate.
+          </p>
+          <div class="service-detail__tags">
+            <span class="tag">Natural Swimming Ponds</span>
+            <span class="tag">Fish Ponds</span>
+            <span class="tag">Water Management</span>
+            <span class="tag">Aquaculture</span>
+          </div>
+          <a href="contact.html" class="btn btn--yellow" style="margin-top:32px;">Enquire About This Service</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════════════
+       CTA
+  ════════════════════════════════════════════════════════ -->
+  <section class="cta-banner">
+    <div class="container cta-banner__inner">
+      <div class="fade-up">
+        <span class="label" style="color:var(--red);">Let's Talk</span>
+        <h2>Not Sure Which<br />Service You Need?</h2>
+        <p>Contact us and our team will help you find the right solution for your project.</p>
+      </div>
+      <div class="fade-up fade-up-delay-2">
+        <a href="contact.html" class="btn btn--red" style="font-size:1rem; padding:18px 44px;">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          Get in Touch
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════════════
+       FOOTER
+  ════════════════════════════════════════════════════════ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__main">
+        <div>
+          <div class="footer__logo-wrap">
+              <img src="assets/logo-big-white.png" alt="Semperficon" class="footer__logo" />
+          </div>
+          <p class="footer__desc">
+            Semperficon is a full-service Philippine construction company committed to quality,
+            integrity, and lasting client relationships — from the first consultation to the
+            final handover.
+          </p>
+        </div>
+        <div>
+          <div class="footer__heading">Navigation</div>
+          <ul class="footer__links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <div class="footer__heading">Office Hours</div>
+          <div class="footer__hours">
+            <div class="footer__hour-row"><strong>Mon – Fri</strong><span>09:00 – 17:00</span></div>
+            <div class="footer__hour-row"><strong>Saturday</strong><span>09:00 – 17:00</span></div>
+            <div class="footer__hour-row"><strong>Sunday</strong><span class="closed">Closed</span></div>
+          </div>
+          <p style="margin-top:16px; font-size:0.8rem; color:rgba(255,255,255,.3);">Visits by appointment only.</p>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p class="footer__copy">© 2025 Semperficon Philippines — All Rights Reserved.</p>
+        <p class="footer__tagline">We Build Your Future</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

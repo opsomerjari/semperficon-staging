@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact — Semperficon Philippines</title>
+  <meta name="description" content="Get in touch with Semperficon. Request a quote, schedule a site visit, or ask us anything about your construction project." />
+    <link rel="icon" type="image/x-icon" href="assets/logo-small-black.png">
+    <link rel="stylesheet" href="css/style.css" />
+  <style>
+    /* ── Contact page extras ── */
+    .contact-hero-strip {
+      background: var(--yellow);
+      padding: 16px 0;
+    }
+    .contact-hero-strip__inner {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 12px;
+      font-family: var(--font-head);
+      font-size: 0.88rem;
+      font-weight: 600;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--black);
+    }
+    .contact-hero-strip a {
+      color: var(--red);
+      text-decoration: underline;
+    }
+
+    .process-steps {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 2px;
+      margin-top: 60px;
+    }
+    .process-step {
+      background: var(--off-white);
+      padding: 44px 32px;
+      position: relative;
+      text-align: center;
+    }
+    .process-step::after {
+      content: '→';
+      position: absolute;
+      right: -12px;
+      top: 50%;
+      transform: translateY(-50%);
+      font-size: 1.4rem;
+      color: var(--yellow);
+      z-index: 1;
+    }
+    .process-step:last-child::after { display: none; }
+    .process-step__num {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 52px; height: 52px;
+      border-radius: 50%;
+      background: var(--yellow);
+      font-family: var(--font-head);
+      font-size: 1.4rem;
+      font-weight: 700;
+      color: var(--black);
+      margin: 0 auto 20px;
+    }
+    .process-step h4 { font-size: 0.95rem; margin-bottom: 10px; }
+    .process-step p  { font-size: 0.85rem; }
+
+    @media (max-width: 768px) {
+      .process-steps { grid-template-columns: repeat(2, 1fr); }
+      .process-step::after { display: none; }
+    }
+    @media (max-width: 480px) {
+      .process-steps { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ═══════════════════════════════════════════════════════
+       NAVIGATION
+  ════════════════════════════════════════════════════════ -->
+  <nav class="nav scrolled" id="nav">
+    <div class="nav__inner">
+      <a href="index.html" class="nav__logo-wrap" aria-label="Semperficon Home">
+        <img src="assets/logo.png" alt="Semperficon Logo" class="nav__logo" />
+      </a>
+      <ul class="nav__links">
+        <li><a href="index.html"    class="nav__link">Home</a></li>
+        <li><a href="about.html"    class="nav__link">About Us</a></li>
+        <li><a href="services.html" class="nav__link">Services</a></li>
+        <li><a href="contact.html"  class="nav__link active">Contact</a></li>
+      </ul>
+      <a href="contact.html" class="nav__cta">Get a Quote</a>
+      <button class="nav__hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <div class="nav__mobile">
+    <a href="index.html"    class="nav__link">Home</a>
+    <a href="about.html"    class="nav__link">About Us</a>
+    <a href="services.html" class="nav__link">Services</a>
+    <a href="contact.html"  class="nav__link active">Contact</a>
+    <a href="contact.html"  class="nav__cta">Get a Quote</a>
+  </div>
+
+  <!-- ═══════════════════════════════════════════════════════
+       PAGE HERO
+  ════════════════════════════════════════════════════════ -->
+  <section class="page-hero">
+    <div class="page-hero__bg" style="background-image: url('assets/contact.webp?w=1400&q=80');"></div>
+    <div class="page-hero__accent"></div>
+    <div class="container page-hero__content">
+      <nav class="breadcrumb" aria-label="Breadcrumb">
+        <a href="index.html">Home</a>
+        <span class="breadcrumb__sep">›</span>
+        <span>Contact</span>
+      </nav>
+      <h1>Get in <span style="color:var(--yellow);">Touch</span></h1>
+      <p>Ready to start your project? Have a question? We would love to hear from you. Reach out and our team will respond within one business day.</p>
+    </div>
+  </section>
+
+  <!-- Quick-access email strip -->
+  <div class="contact-hero-strip">
+    <div class="container contact-hero-strip__inner">
+      <span>📧 Prefer email?</span>
+      <a href="mailto:info@semperficon.com">info@semperficon.com</a>
+      <span>— We respond within 1 business day.</span>
+    </div>
+  </div>
+
+  <!-- ═══════════════════════════════════════════════════════
+       CONTACT MAIN
+  ════════════════════════════════════════════════════════ -->
+  <section class="section">
+    <div class="container">
+      <div class="contact-layout">
+
+        <!-- Contact Info -->
+        <div class="contact-info fade-up">
+
+          <div>
+            <span class="label">Reach Us</span>
+            <h2>Contact Information</h2>
+            <div class="divider"></div>
+            <p>We stay in constant communication with our customers until the job is done. For a quote, a site visit, or any questions — just reach out.</p>
+          </div>
+
+          <div class="contact-info__item">
+            <div class="contact-info__icon">✉️</div>
+            <div>
+              <div class="contact-info__label">Email</div>
+              <div class="contact-info__val">
+                <a href="mailto:info@semperficon.com">info@semperficon.com</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-info__item" style="border-left-color:var(--red);">
+            <div class="contact-info__icon">📍</div>
+            <div>
+              <div class="contact-info__label">Office Address</div>
+              <div class="contact-info__val">
+                Morning Glory 28, VV Soliven,<br />
+                Cainta Rizal, Philippines
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-info__item" style="border-left-color:var(--black);">
+            <div class="contact-info__icon">🕐</div>
+            <div>
+              <div class="contact-info__label">Office Hours</div>
+              <div class="contact-info__val">
+                <table class="hours-table">
+                  <tbody>
+                    <tr><td>Monday</td><td>09:00 AM – 05:00 PM</td></tr>
+                    <tr><td>Tuesday</td><td>09:00 AM – 05:00 PM</td></tr>
+                    <tr><td>Wednesday</td><td>09:00 AM – 05:00 PM</td></tr>
+                    <tr><td>Thursday</td><td>09:00 AM – 05:00 PM</td></tr>
+                    <tr><td>Friday</td><td>09:00 AM – 05:00 PM</td></tr>
+                    <tr><td>Saturday</td><td>09:00 AM – 05:00 PM</td></tr>
+                    <tr><td>Sunday</td><td class="closed">Closed</td></tr>
+                  </tbody>
+                </table>
+                <p style="margin-top:10px; font-size:0.82rem; color:var(--gray);">⚠️ Visits are by appointment only.</p>
+              </div>
+            </div>
+          </div>
+
+          <a href="mailto:info@semperficon.com" class="btn btn--yellow" style="align-self:flex-start;">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            Send Us an Email
+          </a>
+        </div>
+
+        <!-- Map & Note -->
+        <div class="contact-aside fade-up fade-up-delay-2">
+          <div class="contact-aside__map">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3861.3085!2d121.1194!3d14.5577!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397c8a3d5a3c7b5%3A0x7b5f0e5e5c5b5b5b!2sCainta%2C%20Rizal%2C%20Philippines!5e0!3m2!1sen!2sph!4v1620000000000!5m2!1sen!2sph"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              title="Semperficon Office Location"
+            ></iframe>
+          </div>
+
+          <div class="contact-aside__note">
+            <h4>📌 Visit Our Office</h4>
+            <p style="margin-bottom:12px;">
+              Our office is located at Morning Glory 28, VV Soliven, Cainta Rizal, Philippines.
+              We welcome visits by appointment — please reach out via email before coming in so
+              we can ensure the right team member is available to assist you.
+            </p>
+            <a href="https://maps.google.com/?q=Cainta+Rizal+Philippines" target="_blank" rel="noopener noreferrer" style="display:inline-flex; align-items:center; gap:8px; font-family:var(--font-head); font-size:0.8rem; letter-spacing:0.1em; text-transform:uppercase; color:var(--yellow); border-bottom:1px solid rgba(245,196,0,.3); padding-bottom:4px;">
+              Get Directions →
+            </a>
+          </div>
+
+          <!-- What to expect -->
+          <div style="margin-top:28px; padding:28px; background:var(--off-white); border-radius:var(--radius); border-top:4px solid var(--yellow);">
+            <h4 style="font-size:0.9rem; margin-bottom:14px; font-family:var(--font-head); letter-spacing:0.08em; text-transform:uppercase;">What to Include in Your Email</h4>
+            <ul style="display:flex; flex-direction:column; gap:10px;">
+              <li style="display:flex; gap:10px; font-size:0.88rem; color:var(--gray-dk); align-items:flex-start;">
+                <span style="color:var(--yellow); font-weight:700; flex-shrink:0;">→</span>
+                Your full name and contact details
+              </li>
+              <li style="display:flex; gap:10px; font-size:0.88rem; color:var(--gray-dk); align-items:flex-start;">
+                <span style="color:var(--yellow); font-weight:700; flex-shrink:0;">→</span>
+                Project type and location
+              </li>
+              <li style="display:flex; gap:10px; font-size:0.88rem; color:var(--gray-dk); align-items:flex-start;">
+                <span style="color:var(--yellow); font-weight:700; flex-shrink:0;">→</span>
+                Approximate budget range (if known)
+              </li>
+              <li style="display:flex; gap:10px; font-size:0.88rem; color:var(--gray-dk); align-items:flex-start;">
+                <span style="color:var(--yellow); font-weight:700; flex-shrink:0;">→</span>
+                Desired start date or timeline
+              </li>
+              <li style="display:flex; gap:10px; font-size:0.88rem; color:var(--gray-dk); align-items:flex-start;">
+                <span style="color:var(--yellow); font-weight:700; flex-shrink:0;">→</span>
+                Any relevant plans, drawings, or photos
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════════════
+       PROCESS
+  ════════════════════════════════════════════════════════ -->
+  <section class="section bg-black">
+    <div class="container">
+      <div class="text-center fade-up">
+        <span class="label label--yellow">How It Works</span>
+        <h2 class="text-white">Our Simple Process</h2>
+        <div class="divider divider--center" style="background:var(--red);"></div>
+      </div>
+      <div class="process-steps">
+        <div class="process-step fade-up fade-up-delay-1">
+          <div class="process-step__num">1</div>
+          <h4>Get in Touch</h4>
+          <p>Send us an email with your project details. Our team will review your requirements and respond promptly.</p>
+        </div>
+        <div class="process-step fade-up fade-up-delay-2">
+          <div class="process-step__num">2</div>
+          <h4>Site Consultation</h4>
+          <p>We schedule a site visit to fully understand the scope, existing conditions, and your vision for the project.</p>
+        </div>
+        <div class="process-step fade-up fade-up-delay-3">
+          <div class="process-step__num">3</div>
+          <h4>Proposal & Quote</h4>
+          <p>You receive a detailed, transparent project proposal with a breakdown of costs, timeline, and deliverables.</p>
+        </div>
+        <div class="process-step fade-up fade-up-delay-4">
+          <div class="process-step__num">4</div>
+          <h4>We Build</h4>
+          <p>Our expert team gets to work — on time, on budget, with regular updates until we hand over a finished project you love.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════════════
+       FOOTER
+  ════════════════════════════════════════════════════════ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__main">
+        <div>
+          <div class="footer__logo-wrap">
+              <img src="assets/logo-big-white.png" alt="Semperficon" class="footer__logo" />
+          </div>
+          <p class="footer__desc">
+            Semperficon is a full-service Philippine construction company committed to quality,
+            integrity, and lasting client relationships — from the first consultation to the
+            final handover.
+          </p>
+        </div>
+        <div>
+          <div class="footer__heading">Navigation</div>
+          <ul class="footer__links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <div class="footer__heading">Office Hours</div>
+          <div class="footer__hours">
+            <div class="footer__hour-row"><strong>Mon – Fri</strong><span>09:00 – 17:00</span></div>
+            <div class="footer__hour-row"><strong>Saturday</strong><span>09:00 – 17:00</span></div>
+            <div class="footer__hour-row"><strong>Sunday</strong><span class="closed">Closed</span></div>
+          </div>
+          <p style="margin-top:16px; font-size:0.8rem; color:rgba(255,255,255,.3);">Visits by appointment only.</p>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p class="footer__copy">© 2025 Semperficon Philippines — All Rights Reserved.</p>
+        <p class="footer__tagline">We Build Your Future</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

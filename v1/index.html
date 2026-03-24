@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semperficon — We Build Your Future</title>
+    <meta name="description" content="Semperficon is a professional construction company in Cainta, Rizal, specializing in residential construction, renovations, steel fabrication, precast concrete, and project management.">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow+Condensed:wght@400;500;600;700&family=Barlow:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- =====================
+         NAVIGATION
+    ===================== -->
+    <header class="site-header" id="siteHeader">
+        <nav class="nav container">
+            <a href="index.html" class="nav__logo" aria-label="Semperficon Home">
+                <img src="logo.png" alt="Semperficon" class="nav__logo-img">
+            </a>
+            <ul class="nav__menu" id="navMenu" role="menubar">
+                <li role="none"><a href="index.html"       class="nav__link active" role="menuitem">Home</a></li>
+                <li role="none"><a href="about.html"       class="nav__link"        role="menuitem">About Us</a></li>
+                <li role="none"><a href="services.html"    class="nav__link"        role="menuitem">Services</a></li>
+                <li role="none"><a href="contact.html"     class="nav__link"        role="menuitem">Contact</a></li>
+                <li role="none"><a href="contact.html"     class="btn btn--yellow btn--sm" role="menuitem">Get a Quote</a></li>
+            </ul>
+            <button class="nav__hamburger" id="hamburger" aria-label="Open navigation menu" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- =====================
+             HERO SECTION
+        ===================== -->
+        <section class="hero" id="hero" aria-label="Hero">
+            <div class="hero__bg" role="img" aria-label="Construction site background"></div>
+            <div class="hero__overlay"></div>
+            <div class="hero__left-bar" aria-hidden="true"></div>
+
+            <div class="container hero__content">
+                <p class="hero__tag fade-up">Construction &amp; Development — Cainta, Rizal</p>
+                <h1 class="hero__title fade-up">
+                    <span class="hero__title-line">WE BUILD</span>
+                    <span class="hero__title-line hero__title-accent">YOUR FUTURE</span>
+                </h1>
+                <p class="hero__subtitle fade-up">
+                    From residential homes to steel fabrication and project management — Semperficon delivers quality that endures.
+                </p>
+                <div class="hero__cta fade-up">
+                    <a href="services.html" class="btn btn--yellow btn--lg">Explore Our Services</a>
+                    <a href="about.html"    class="btn btn--outline  btn--lg">About Us</a>
+                </div>
+            </div>
+
+            <div class="hero__scroll-hint" aria-hidden="true">
+                <span class="hero__scroll-line"></span>
+                <span class="hero__scroll-label">Scroll</span>
+            </div>
+        </section>
+
+        <!-- =====================
+             STATS BAR
+        ===================== -->
+        <section class="stats" id="stats" aria-label="Company statistics">
+            <div class="container stats__grid">
+                <div class="stat-item fade-up">
+                    <div class="stat-item__value">
+                        <span class="stat-item__num" data-target="15">0</span><span class="stat-item__suf">+</span>
+                    </div>
+                    <span class="stat-item__label">Years of Experience</span>
+                </div>
+                <div class="stat-item fade-up" style="--delay:.1s">
+                    <div class="stat-item__value">
+                        <span class="stat-item__num" data-target="250">0</span><span class="stat-item__suf">+</span>
+                    </div>
+                    <span class="stat-item__label">Projects Completed</span>
+                </div>
+                <div class="stat-item fade-up" style="--delay:.2s">
+                    <div class="stat-item__value">
+                        <span class="stat-item__num" data-target="98">0</span><span class="stat-item__suf">%</span>
+                    </div>
+                    <span class="stat-item__label">Client Satisfaction</span>
+                </div>
+                <div class="stat-item fade-up" style="--delay:.3s">
+                    <div class="stat-item__value">
+                        <span class="stat-item__num" data-target="6">0</span><span class="stat-item__suf"></span>
+                    </div>
+                    <span class="stat-item__label">Core Specializations</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- =====================
+             ABOUT SECTION
+        ===================== -->
+        <section class="about section" id="about" aria-labelledby="about-heading">
+            <div class="container about__inner">
+
+                <div class="about__media fade-up">
+                    <div class="about__frame">
+                        <img
+                            src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=720&q=80"
+                            alt="Semperficon construction team at work"
+                            loading="lazy"
+                            width="720" height="900"
+                        >
+                        <div class="about__badge">
+                            <span>EST.</span>
+                            <strong>2009</strong>
+                        </div>
+                    </div>
+                    <div class="about__frame-accent" aria-hidden="true"></div>
+                </div>
+
+                <div class="about__content fade-up" style="--delay:.15s">
+                    <span class="label">About Semperficon</span>
+                    <h2 class="section-title" id="about-heading">Building with<br><em>Craftsmanship</em><br>&amp; Integrity</h2>
+                    <p class="body-text">
+                        Semperficon is a professional construction company based in Cainta, Rizal. Our experienced team of skilled craftsmen, project managers, engineers and support staff work together to ensure every project is completed on time, within budget, and to the highest standard.
+                    </p>
+                    <p class="body-text">
+                        Our commercial projects include both new construction and repairs or restorations. Occupied and fully operational job sites are never a problem — and we can plan, manage, and build multi-phase jobs with ease.
+                    </p>
+
+                    <div class="about__pillars">
+                        <div class="pillar">
+                            <span class="pillar__icon" aria-hidden="true">◈</span>
+                            <div>
+                                <strong>What We Do</strong>
+                                <p>New construction, renovations, and multi-phase projects from start to finish.</p>
+                            </div>
+                        </div>
+                        <div class="pillar">
+                            <span class="pillar__icon" aria-hidden="true">◈</span>
+                            <div>
+                                <strong>Working Together</strong>
+                                <p>End-to-end client experience: communication, budgeting, staffing &amp; quality work.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <a href="about.html" class="btn btn--black btn--md">Learn More About Us</a>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- =====================
+             SERVICES SECTION
+        ===================== -->
+        <section class="services section section--dark" id="services" aria-labelledby="services-heading">
+            <div class="container">
+                <header class="section-header fade-up">
+                    <span class="label label--light">What We Offer</span>
+                    <h2 class="section-title section-title--light" id="services-heading">Our <em>Services</em></h2>
+                    <p class="body-text body-text--muted body-text--centered">
+                        From foundation to finishing — Semperficon is your trusted partner for every construction project.
+                    </p>
+                </header>
+
+                <div class="services__grid">
+
+                    <article class="svc-card fade-up" style="--delay:0s">
+                        <div class="svc-card__num" aria-hidden="true">01</div>
+                        <div class="svc-card__icon" aria-hidden="true">
+                            <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                <path d="M4 36V20L20 6L36 20V36H26V26H14V36H4Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <h3 class="svc-card__title">Residential Construction</h3>
+                        <p class="svc-card__text">Our experienced team creates beautiful and functional homes that exceed our clients' expectations. We work with you to design and build a home that is uniquely yours.</p>
+                        <a href="services.html#residential" class="svc-card__link">Learn more <span aria-hidden="true">→</span></a>
+                    </article>
+
+                    <article class="svc-card fade-up" style="--delay:.08s">
+                        <div class="svc-card__num" aria-hidden="true">02</div>
+                        <div class="svc-card__icon" aria-hidden="true">
+                            <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                <path d="M8 32L14 20L22 26L30 10" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <rect x="4" y="4" width="32" height="32" rx="1" stroke="currentColor" stroke-width="2"/>
+                            </svg>
+                        </div>
+                        <h3 class="svc-card__title">Renovations</h3>
+                        <p class="svc-card__text">We do renovations that transform your space into something you'll love. From updating your kitchen to adding a new room, we bring your vision to life.</p>
+                        <a href="services.html#renovations" class="svc-card__link">Learn more <span aria-hidden="true">→</span></a>
+                    </article>
+
+                    <article class="svc-card fade-up" style="--delay:.16s">
+                        <div class="svc-card__num" aria-hidden="true">03</div>
+                        <div class="svc-card__icon" aria-hidden="true">
+                            <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                <rect x="4" y="10" width="32" height="4" stroke="currentColor" stroke-width="2"/>
+                                <rect x="4" y="26" width="32" height="4" stroke="currentColor" stroke-width="2"/>
+                                <line x1="12" y1="14" x2="12" y2="26" stroke="currentColor" stroke-width="2"/>
+                                <line x1="20" y1="14" x2="20" y2="26" stroke="currentColor" stroke-width="2"/>
+                                <line x1="28" y1="14" x2="28" y2="26" stroke="currentColor" stroke-width="2"/>
+                            </svg>
+                        </div>
+                        <h3 class="svc-card__title">Project Management</h3>
+                        <p class="svc-card__text">Our experienced project managers ensure that every project is completed on time and within budget. We handle all aspects so you don't have to worry about a thing.</p>
+                        <a href="services.html#project-management" class="svc-card__link">Learn more <span aria-hidden="true">→</span></a>
+                    </article>
+
+                    <article class="svc-card fade-up" style="--delay:.24s">
+                        <div class="svc-card__num" aria-hidden="true">04</div>
+                        <div class="svc-card__icon" aria-hidden="true">
+                            <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                <path d="M8 32L16 20L24 28L32 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                                <circle cx="32" cy="12" r="3" fill="currentColor"/>
+                                <path d="M4 36H36" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                            </svg>
+                        </div>
+                        <h3 class="svc-card__title">Steel Fabrication</h3>
+                        <p class="svc-card__text">Semperficon steel fabrication involves taking raw materials and shaping them to their desired form for various implementations across all project types.</p>
+                        <a href="services.html#steel" class="svc-card__link">Learn more <span aria-hidden="true">→</span></a>
+                    </article>
+
+                    <article class="svc-card fade-up" style="--delay:.32s">
+                        <div class="svc-card__num" aria-hidden="true">05</div>
+                        <div class="svc-card__icon" aria-hidden="true">
+                            <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                <rect x="4" y="16" width="32" height="18" stroke="currentColor" stroke-width="2"/>
+                                <path d="M4 16L20 6L36 16" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+                                <rect x="14" y="24" width="12" height="10" stroke="currentColor" stroke-width="2"/>
+                            </svg>
+                        </div>
+                        <h3 class="svc-card__title">Concrete Precast</h3>
+                        <p class="svc-card__text">Precast concrete poured in reusable moulds, cured in controlled environments. Suitable for floors, walls, or roofs of any building — on-site or off-site.</p>
+                        <a href="services.html#precast" class="svc-card__link">Learn more <span aria-hidden="true">→</span></a>
+                    </article>
+
+                    <article class="svc-card fade-up" style="--delay:.40s">
+                        <div class="svc-card__num" aria-hidden="true">06</div>
+                        <div class="svc-card__icon" aria-hidden="true">
+                            <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                <ellipse cx="20" cy="24" rx="14" ry="8" stroke="currentColor" stroke-width="2"/>
+                                <path d="M6 24C6 14 10 8 20 8C30 8 34 14 34 24" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                                <path d="M14 16C14 16 16 20 20 20C24 20 26 16 26 16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                            </svg>
+                        </div>
+                        <h3 class="svc-card__title">Swim &amp; Fish Ponds</h3>
+                        <p class="svc-card__text">Design and construction of swimming ponds and fish ponds that blend seamlessly with their surroundings — beautiful, sustainable, and built to last.</p>
+                        <a href="services.html#ponds" class="svc-card__link">Learn more <span aria-hidden="true">→</span></a>
+                    </article>
+
+                </div>
+
+                <div class="services__footer fade-up">
+                    <a href="services.html" class="btn btn--yellow btn--lg">View All Services</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- =====================
+             WHY CHOOSE US
+        ===================== -->
+        <section class="why section" id="why" aria-labelledby="why-heading">
+            <div class="container">
+                <header class="section-header fade-up">
+                    <span class="label">Why Semperficon?</span>
+                    <h2 class="section-title" id="why-heading">Your Project in <em>Trusted Hands</em></h2>
+                </header>
+
+                <div class="why__grid">
+
+                    <div class="why-item fade-up" style="--delay:0s">
+                        <span class="why-item__num" aria-hidden="true">01</span>
+                        <h3 class="why-item__title">Skilled Professionals</h3>
+                        <p class="why-item__text">Our team consists of certified engineers, qualified craftsmen and experienced project managers who collaborate to deliver excellence on every job site.</p>
+                    </div>
+
+                    <div class="why-item fade-up" style="--delay:.12s">
+                        <span class="why-item__num" aria-hidden="true">02</span>
+                        <h3 class="why-item__title">Transparent Communication</h3>
+                        <p class="why-item__text">We stay in constant contact with our clients until the job is done. No surprises, no hidden costs — just honest, straightforward updates throughout.</p>
+                    </div>
+
+                    <div class="why-item fade-up" style="--delay:.24s">
+                        <span class="why-item__num" aria-hidden="true">03</span>
+                        <h3 class="why-item__title">On Time &amp; On Budget</h3>
+                        <p class="why-item__text">Tight scheduling and careful budget management ensure your project always stays on track and costs remain firmly under control — from day one to completion.</p>
+                    </div>
+
+                    <div class="why-item fade-up" style="--delay:.36s">
+                        <span class="why-item__num" aria-hidden="true">04</span>
+                        <h3 class="why-item__title">Quality Above All</h3>
+                        <p class="why-item__text">We work with architects and designers to produce beautiful, functional structures. Our commitment to quality is what turns clients into long-term partners.</p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- =====================
+             CTA BANNER
+        ===================== -->
+        <section class="cta-band" aria-label="Call to action">
+            <div class="container cta-band__inner">
+                <div class="cta-band__content fade-up">
+                    <h2 class="cta-band__title">Ready to start your project?</h2>
+                    <p class="cta-band__sub">Request a free site visit or quote — we'd love to hear about your project.</p>
+                </div>
+                <div class="cta-band__actions fade-up" style="--delay:.15s">
+                    <a href="contact.html" class="btn btn--yellow btn--lg">Contact Us Today</a>
+                    <a href="mailto:info@semperficon.com" class="btn btn--ghost btn--lg">info@semperficon.com</a>
+                </div>
+            </div>
+            <span class="cta-band__bg-text" aria-hidden="true">BUILD</span>
+        </section>
+
+        <!-- =====================
+             COMPANY PROFILE
+        ===================== -->
+        <section class="profile section" id="profile" aria-labelledby="profile-heading">
+            <div class="container profile__inner">
+
+                <div class="profile__content fade-up">
+                    <span class="label">Company Profile</span>
+                    <h2 class="section-title" id="profile-heading">Get to Know<br><em>Semperficon</em></h2>
+                    <p class="body-text">
+                        Download or view our company profile for a complete overview of our services, reference projects, team structure and company values. Ideal for tendering processes and business partnerships.
+                    </p>
+                    <a href="about.html" class="btn btn--black btn--md">View Company Profile</a>
+                </div>
+
+                <div class="profile__card-wrap fade-up" style="--delay:.15s">
+                    <div class="profile-card">
+                        <div class="profile-card__header">
+                            <span class="profile-card__brand">SEMPERFICON</span>
+                            <small class="profile-card__sub">Company Profile 2024</small>
+                        </div>
+                        <ul class="profile-card__list">
+                            <li><span aria-hidden="true">✓</span> Services &amp; Specializations</li>
+                            <li><span aria-hidden="true">✓</span> Reference Projects</li>
+                            <li><span aria-hidden="true">✓</span> Team Composition</li>
+                            <li><span aria-hidden="true">✓</span> Certifications &amp; Standards</li>
+                            <li><span aria-hidden="true">✓</span> Contact Information</li>
+                        </ul>
+                        <div class="profile-card__footer">
+                            <a href="about.html" class="btn btn--yellow btn--sm">View Now</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <!-- =====================
+         FOOTER
+    ===================== -->
+    <footer class="footer" aria-label="Site footer">
+        <div class="container footer__grid">
+
+            <div class="footer__brand">
+                <a href="index.html" class="footer__logo" aria-label="Semperficon home">
+                    <img src="logo.png" alt="Semperficon" class="footer__logo-img">
+                </a>
+                <p class="footer__tagline">We Build Your Future</p>
+                <address class="footer__address">
+                    Morning Glory 28, VV Soliven,<br>
+                    Cainta Rizal, Philippines
+                </address>
+            </div>
+
+            <nav class="footer__nav" aria-label="Footer navigation">
+                <h3 class="footer__col-heading">Navigation</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+
+            <nav class="footer__services" aria-label="Services navigation">
+                <h3 class="footer__col-heading">Services</h3>
+                <ul>
+                    <li><a href="services.html#residential">Residential Construction</a></li>
+                    <li><a href="services.html#renovations">Renovations</a></li>
+                    <li><a href="services.html#project-management">Project Management</a></li>
+                    <li><a href="services.html#steel">Steel Fabrication</a></li>
+                    <li><a href="services.html#precast">Concrete Precast</a></li>
+                    <li><a href="services.html#ponds">Swim &amp; Fish Ponds</a></li>
+                </ul>
+            </nav>
+
+            <div class="footer__contact">
+                <h3 class="footer__col-heading">Contact</h3>
+                <a href="mailto:info@semperficon.com" class="footer__email">info@semperficon.com</a>
+                <div class="footer__hours">
+                    <p>Mon – Sat: 09:00 AM – 05:00 PM</p>
+                    <p>Sunday: Closed</p>
+                    <p class="footer__note">Visits by appointment only</p>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="footer__bottom">
+            <div class="container footer__bottom-inner">
+                <p>© 2024 Semperficon Philippines. All rights reserved.</p>
+                <p>semperficon.ph</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
